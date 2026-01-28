@@ -1,5 +1,8 @@
 # PC_to_OG
 
+<img width="278" height="267" alt="Screenshot from 2026-01-28 14-30-00" src="https://github.com/user-attachments/assets/547a2fb6-cb10-4885-9190-b58bef0272c1" />
+<img width="278" height="267" alt="Screenshot from 2026-01-28 14-27-02" src="https://github.com/user-attachments/assets/6130f32b-14ea-4286-b3b5-ee2b3df39c8d" />
+
 ## ⚡ Fastest Way to Get Started
 
 ```bash
