@@ -96,6 +96,30 @@ docker run --rm -v "$(pwd)/data:/data" -v "$(pwd)/output:/output" \
   --octree_res 0.2 --workers 8
 ```
 
+### Case 5: Noisy Scan (filter small / isolated obstacles)
+```bash
+docker run --rm -v "$(pwd)/data:/data" -v "$(pwd)/output:/output" \
+  pointcloud-converter:latest \
+  /data/noisy_scan.ply /output/clean_map \
+  --min_cluster_size 50 --cluster_eps 0.25
+```
+
+---
+## 🔧 All Parameters
+
+| Parameter | Default | Description |
+| --- | --- | --- |
+| --octree_res | 0.1 | Resolution of the internal 3D octree (metres)|
+| --grid_res | 0.05 | Resolution of the final 2D grid (metres/cell) |
+| --slope_deg | 15.0 | Max surface angle (°) to be classified as ground |
+| --z_min | 0.1 | Min Z offset above ground to check for obstacles |
+| --z_max | 2.0 | Max Z offset above ground to check for obstacles |
+| --normal_radius | 0.2 | Radius for surface normal estimation |
+| --downsample | 0.05 | Voxel size for downsampling (0 to disable) |
+| --workers | 4 | Parallel worker threads for grid generation |
+| --min_cluster_size | 30 | Min points per obstacle cluster; smaller clusters are removed as noise (0 to disable) |
+| --cluster_eps | 0.2 | DBSCAN neighbourhood radius in metres for obstacle clustering |
+
 ---
 
 ## 🐛 Troubleshooting Quick Links
