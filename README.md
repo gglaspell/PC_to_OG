@@ -1,7 +1,8 @@
 # PC_to_OG
 
 <img width="278" height="267" alt="Screenshot from 2026-01-28 14-30-00" src="https://github.com/user-attachments/assets/547a2fb6-cb10-4885-9190-b58bef0272c1" />
-<img width="278" height="267" alt="Screenshot from 2026-01-28 18-17-29" src="https://github.com/user-attachments/assets/669979ee-74d6-4af2-a91b-b5264d875c36" />
+
+<img width="278" height="267" alt="Screenshot from 2026-03-02 11-47-36" src="https://github.com/user-attachments/assets/d5528e0d-bf4a-46e9-9680-89e1274269f6" />
 
 
 ## ⚡ Fastest Way to Get Started
