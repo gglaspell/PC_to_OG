@@ -4,6 +4,14 @@
 
 <img width="278" height="267" alt="Screenshot from 2026-03-02 11-47-36" src="https://github.com/user-attachments/assets/d5528e0d-bf4a-46e9-9680-89e1274269f6" />
 
+## 🔥 New!
+How to Run the GUI launcher
+
+```
+python3 pc_to_og_launcher.py
+```
+
+Requires Python 3.8+ with tkinter (included by default on Windows and macOS; on Ubuntu: `sudo apt install python3-tk`).
 
 ## ⚡ Fastest Way to Get Started
 
